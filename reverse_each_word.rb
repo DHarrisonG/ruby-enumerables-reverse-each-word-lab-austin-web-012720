@@ -1,11 +1,7 @@
 def reverse_each_word(str)
 rev = str.split
-i = 0
-while i < rev.length do
-arr << rev[i].reverse
-i += 1
-end
-arr.join(" ")
+rev.collect { |n| n.reverse }
+rev.join(" ")
 end
 
 
