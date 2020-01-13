@@ -10,3 +10,4 @@ arr.join(" ")
 end
 
 
+nums.collect { |n| n * n }
