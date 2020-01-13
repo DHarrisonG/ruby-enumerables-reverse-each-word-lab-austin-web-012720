@@ -3,7 +3,7 @@ arr = []
 rev = str.split
 i = 0
 while i < rev.length do
-arr << rev[i].reverse
+arr << rev[i].collect{|word| word.reverse}
 i += 1
 end
 arr.join(" ")
