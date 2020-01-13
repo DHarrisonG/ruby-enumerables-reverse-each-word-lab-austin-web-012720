@@ -1,4 +1,4 @@
-def meth(str)
+def reverse_each_word(str)
 arr = []
 rev = str.split
 i = 0
